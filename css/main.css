@@ -21,7 +21,7 @@
     
 }
 .advantages {
-    background: var(--main-bg-decoration);
+    background-color: var(--main-bg-decoration);
     letter-spacing: 0.03em;
 }
 
@@ -79,7 +79,7 @@
 
 .team .header,
 .team{
-    background: var(--team-bg-decoration);
+    background-color: var(--team-bg-decoration);
 }
 
 
