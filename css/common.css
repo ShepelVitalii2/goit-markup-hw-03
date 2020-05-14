@@ -1,0 +1,218 @@
+/* Палитра */
+
+:root {
+    
+    --primary-text-decoration: #212121;
+    --secondary-text-color: #757575;
+    --threatly-text-color: rgba(255, 255, 255, 0.6);
+    --copyright-txt-color:rgba(255, 255, 255, 0.4);
+    --title-text-decoration: #FFFFFF;
+
+    --nav-bg-decoration: #FFFFFF;
+    --hero-bg-decoration:rgba(47, 48, 58, 0.8);
+    --main-bg-decoration:#E5E5E5;
+    --team-bg-decoration:#F5F4FA;
+    --footer-bg-decoration:#2F303A;
+    --accent-color: #2196F3;
+
+}
+
+/* Общие значения */
+
+a {
+    color: var(--primary-text-decoration);
+    text-decoration: none;
+}
+
+ul{
+    margin: 0px;
+    padding: 0px;
+}
+
+li {
+    list-style: none;
+}
+
+body{
+    background-color: var(--main-bg-decoration);
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,h2,h3,p{
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Задаем стиль Вэб Студио */
+
+.nav-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+}
+
+.footer-logo{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 1.18;
+    letter-spacing: 0.03em;
+    color: var(--title-text-decoration);
+}
+.web{
+    color: var(--accent-color);
+}
+
+/* Header */
+
+.occupation .header{
+    margin-bottom: 50px;
+}
+
+.header{
+    
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    color: var(--primary-text-decoration);
+}
+.nav-item{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.header-contacts{
+    color: var(--secondary-text-color);
+}
+
+.nav-item .current{
+    color:var(--accent-color);
+}
+
+.nav-item .nav-link:hover,
+.nav-item .nav-link:focus {
+    color: var(--accent-color);
+}
+
+/* Футер */
+
+.footer{
+    background-color: var(--footer-bg-decoration);
+}
+
+.address{
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    color: var(--title-text-decoration);
+}
+
+.contacts-address{
+    color: var(--threatly-text-color);
+}
+
+/* Ховер и фокус для соцсетей */
+.social-links .footer-link:hover,
+.social-links .footer-link:focus{
+    color: var(--accent-color);
+}
+
+.footer-link{
+    color: var(--title-text-decoration);
+}
+
+.copyright{
+    color:var(--copyright-txt-color);
+    font-size: 12px;
+    line-height: 2;
+    text-align: center;
+    letter-spacing: 0.03em;
+
+}
+
+.appeal{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color:var(--title-text-decoration);
+}
+
+.button{
+    color:var(--primary-text-decoration);
+    background-color: var(--team-bg-decoration);
+    border: 2px solid var(--team-bg-decoration);
+    
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+    letter-spacing: 0.06em;  
+}
+
+.hero-button{
+    display: inline-block;
+
+    padding: 8px 30px;
+    border-radius: 4px;
+    vertical-align: middle;
+    min-width: 200px;
+}
+
+.footer-button{
+    display: inline-block;
+
+    padding: 8px 43px;
+    border: 2px solid var(--accent-color);
+    border-radius: 4px;
+    vertical-align: middle;
+    min-width: 200px;
+}
+
+.button-secondary{
+    display: inline-block;
+    padding: 6px 22px;
+    vertical-align: middle;
+    min-width: 73px;
+
+    color:var(--primary-text-decoration);
+    background-color: var(--team-bg-decoration);
+    border: 2px solid var(--team-bg-decoration);
+
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+}
+
+.button:hover,
+.button:focus{
+    color: var(--title-text-decoration);
+    background-color: var(--accent-color);
+    border-color:  var(--accent-color);
+}
+
+.button-secondary:hover,
+.button-secondary:focus{
+    color: var(--title-text-decoration);
+    background-color: var(--accent-color);
+    border-color:  var(--accent-color);
+}
+
+/* Разметка */
+
+.container{
+    outline: 2px solid tomato;
+    width: 1200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}

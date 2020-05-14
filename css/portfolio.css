@@ -1,0 +1,41 @@
+.main-container{
+    background-color: var(--main-bg-decoration);
+}
+
+.main-header,
+.project-list{
+    display: none;
+}
+
+.project-nav{
+    padding-top: 93px;
+    padding-bottom: 50px;
+
+    text-align: center;
+}
+
+.project-button :hover,
+.project-button :focus{
+    color:var(--accent-color);
+    
+}
+
+.project-name{
+    margin-top: 20px;
+    margin-bottom: 4px;
+
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--primary-text-decoration);
+}
+
+.project-descriptoin{
+    padding-bottom: 20px;
+
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.03em;
+    color: var(--secondary-text-color);
+}
