@@ -53,6 +53,7 @@ h1,h2,h3,p{
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
+    margin-right: 86px;
 }
 
 .footer-logo{
@@ -81,11 +82,39 @@ h1,h2,h3,p{
     color: var(--primary-text-decoration);
     background-color: var(--title-text-decoration);
 }
+
+.header-container{
+    display: flex;
+    align-items: center;
+    
+}
+
 .nav-item{
+    display: flex;
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
+}
+
+.nav-item .nav-li:not(:last-child){
+    margin-right: 50px;
+}
+
+.contacts{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contacts-li + .contacts-li{
+    margin-left: 30px;
 }
 
 .header-contacts{
@@ -94,6 +123,13 @@ h1,h2,h3,p{
 
 .nav-item .current{
     color:var(--accent-color);
+}
+
+.nav-link{
+    display: block;
+
+    padding-top: 32px;
+    padding-bottom: 32px;
 }
 
 .nav-item .nav-link:hover,
@@ -105,9 +141,20 @@ h1,h2,h3,p{
 
 .footer{
     background-color: var(--footer-bg-decoration);
+    padding-top: 53px;
+    padding-bottom: 21px;
+}
+
+.footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 46px;
 }
 
 .address{
+    display: column;
+
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -123,6 +170,12 @@ h1,h2,h3,p{
 .social-links .footer-link:hover,
 .social-links .footer-link:focus{
     color: var(--accent-color);
+}
+
+.social-list{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 24px;
 }
 
 .footer-link{
@@ -144,6 +197,10 @@ h1,h2,h3,p{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color:var(--title-text-decoration);
+}
+
+.appeal-container{
+    display: column;
 }
 
 .button{
@@ -211,7 +268,7 @@ h1,h2,h3,p{
 
 .container{
     outline: 2px solid tomato;
-    width: 1200px;
+    width: 1230px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;

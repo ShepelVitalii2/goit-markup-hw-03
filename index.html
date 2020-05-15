@@ -13,34 +13,34 @@
 <body>
     <!--header-->
     <header class="header">
-        <div class="container">
-            <nav>
-                <a href="" class="nav-logo"> 
-                    <span class="web">
-                        Web
-                    </span>
-                    Studio 
-                </a>
-                <ul class="nav-item navigation">
-                    <li><a href="./index.html" class="nav-link current">Студия</a></li>
-                    <li><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
-                    <li><a href="" class="nav-link">Контакты</a></li>
+        <div class="container header-container">
+            <a href="" class="nav-logo"> 
+                <span class="web">
+                    Web
+                </span>
+                Studio 
+            </a>
+            <nav class="navigation">
+                <ul class="nav-item">
+                    <li class="nav-li"><a href="./index.html" class="nav-link current">Студия</a></li>
+                    <li class="nav-li"><a href="./portfolio.html" class="nav-link">Портфолио</a></li>
+                    <li class="nav-li"><a href="" class="nav-link">Контакты</a></li>
                 </ul>
             </nav>
-                <ul class="nav-item">
-                    <li>
-                        <a href="mailto:info@devstudio.com" class="header-contacts nav-link">
-                            <img src="./img/vector(envelope).svg" alt="конверт">
-                            info@devstudio.com
-                        </a>
-                    </li>
-                    <li>
-                        <a href="tel:+380961111111" class="header-contacts nav-link">
-                            <img src="./img/vector(phone).svg" alt="телефон">
-                            +38 096 111 11 11
-                        </a>
-                    </li>
-                </ul>
+            <ul class="contacts">
+                <li class="contacts-li">
+                    <a href="mailto:info@devstudio.com" class="header-contacts nav-link">
+                        <img src="./img/vector(envelope).svg" alt="конверт">
+                        info@devstudio.com
+                    </a>
+                </li>
+                <li class="contacts-li">
+                    <a href="tel:+380961111111" class="header-contacts nav-link">
+                        <img src="./img/vector(phone).svg" alt="телефон">
+                        +38 096 111 11 11
+                    </a>
+                </li>
+            </ul>
         </div>
     </header>
     
@@ -59,7 +59,7 @@
 
                     <h2 class="header advantage-header">Преимущества</h2>
                     <ul class="container advantage-container">
-                        <li>
+                        <li class="item">
                             <a href="">
                                 <img src="./img/vector(locator).svg" alt="локатор">
                             </a>
@@ -68,7 +68,7 @@
                                 Идейные соображения, а также начало повседневной работы по формированию позиции.
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <a href="">
                                 <img src="./img/vector(clock).svg" alt="часы">
                             </a>
@@ -77,7 +77,7 @@
                                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <a href="">
                                 <img src="./img/vector(computer).svg" alt="компьютер">
                             </a>
@@ -86,7 +86,7 @@
                                 Равным образом консультация с широким активом в значительной степени обуславливает.
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <a href="">
                                 <img src="./img/vector(astronaut).svg" alt="астронавт">
                             </a>
@@ -103,8 +103,8 @@
                 <div class="container">
                     <h2 class="header">Чем мы занимаемся</h2>
 
-                    <ul>
-                        <li>
+                    <ul class="occupation-list">
+                        <li class="item">
                             <img src="./img/desctopApp.jpg" alt="ДесктопныеПриложения" width="380" height="294">
                             <p>
                                 <a href="" class="occupation-text">
@@ -112,7 +112,7 @@
                                 </a>
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <img src="./img/mobApp.jpg" alt="мобильныеПриложения"  width="380" height="294">
                             <p>
                                 <a href="" class="occupation-text">
@@ -120,7 +120,7 @@
                             </a>
                             </p>
                         </li>
-                        <li>
+                        <li class="item">
                             <img src="./img/designSolution.jpg" alt="ДизайнерскиеРешения"  width="380" height="294">
                             <p>
                                 <a href="" class="occupation-text">
@@ -136,13 +136,13 @@
         <section class="team">
             <div class="container">
                 <h2 class="header">Наша команда</h2>
-                <ul>
+                <ul class="team-list">
                     <!--Jhon-->
-                    <li>
+                    <li class="item">
                         <img src="./img/JhonSmith.jpg" alt="ДжонСмит" width="278" height="260">
                         <h3 class="team-name">John Smith</h3>
                         <p class="team-text">Product Designer</p>
-                        <ul>
+                        <ul class="social-list">
                             <li>
                                 <a href="">
                                     <img src="./img/vector(instagram).svg" alt="инстаграм">
@@ -166,11 +166,11 @@
                         </ul>
                     </li>
                     <!--Marta-->
-                    <li>
+                    <li class="item">
                         <img src="./img/MartaStewart.jpg" alt="МартаСтюарт" width="278" height="260">
                         <h3 class="team-name">Marta Stewart</h3>
                         <p class="team-text">Frontend Developer</p>
-                        <ul>
+                        <ul class="social-list">
                             <li>
                                 <a href="">
                                     <img src="./img/vector(instagram).svg" alt="инстаграм">
@@ -194,11 +194,11 @@
                         </ul>
                     </li>
                     <!--Robert-->
-                    <li>
+                    <li class="item">
                         <img src="./img/RobertJakis.jpg" alt="РобетДжекиз" width="278" height="260">
                         <h3 class="team-name">Robert Jakis</h3>
                         <p class="team-text">Marketing</p>
-                        <ul>
+                        <ul class="social-list">
                             <li>
                                 <a href="">
                                     <img src="./img/vector(instagram).svg" alt="инстаграм">
@@ -222,11 +222,11 @@
                         </ul>
                     </li>
                     <!--Martin-->
-                    <li>
+                    <li class="item">
                         <img src="./img/MartinDoe.jpg" alt="МартинДое" width="278" height="260">
                         <h3 class="team-name">Martin Doe</h3>
                         <p class="team-text">UI Designer</p>
-                        <ul>
+                        <ul class="social-list">
                             <li>
                                 <a href="">
                                     <img src="./img/vector(instagram).svg" alt="инстаграм">
@@ -258,33 +258,33 @@
 
             <div class="container"> 
                 <h2 class="header">Постоянные клиенты</h2>
-                <ul class="regular-customers">
-                    <li>
+                <ul class="customers-list">
+                    <li class="item">
                         <a href="">
                             <img src="./img/Client1.svg" alt="клиент 1">
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="">
                             <img src="./img/Client2.svg" alt="клиент 2">
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="">
                             <img src="./img/Client3.svg" alt="клиент 3">
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="">
                             <img src="./img/Client4.svg" alt="клиент 4">
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="">
                             <img src="./img/Client5.svg" alt="клиент 5">
                         </a>
                     </li>
-                    <li>
+                    <li class="item">
                         <a href="">
                             <img src="./img/Client6.svg" alt="клиент 6">
                         </a>
@@ -311,23 +311,24 @@
                 <a href="mailto:info@example.com" class="contacts-address">info@example.com</a><br>
                 <a href="tel:+380991111111" class="contacts-address">+38 099 111 11 11</a>
             </address>
-
-            <b class="appeal">присоединяйтесь</b>
-            
-            <ul class="social-links">
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на инстаграм">инстаграм</a>
-                </li>
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на твитер">твитер</a>
-                </li>
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на фейсбук">фейсбук</a>
-                </li>
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на ЛинкдИн">ЛинкдИн</a>
-                </li>
-            </ul>
+            <div class="appeal-container">
+                <b class="appeal">присоединяйтесь</b>
+                
+                <ul class="social-links social-list">
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на инстаграм">Инс</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на твитер">Тви</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на фейсбук">ФБ</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на ЛинкдИн">Лнкд</a>
+                    </li>
+                </ul>
+            </div>
 
             <b class="appeal">Подпишитесь на рассылку</b>
 
@@ -335,8 +336,9 @@
                 Подписаться
             </a>
             
-            <p class="copyright">2020 | Developed by GoIT Students</p>
+            
         </div>
+        <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
 </body>
 </html>

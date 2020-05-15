@@ -13,35 +13,35 @@
 <body>
     <!--header-->
     <header class="header">
-        <div class="container">
-            <nav>
-                <a href="" class="nav-logo"> 
-                    <span class="web">
-                        Web
-                    </span>
-                    Studio 
-                </a>
-                <ul class="nav-item navigation">
-                    <li><a href="./index.html" class="nav-link">Студия</a></li>
-                    <li><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
-                    <li><a href="" class="nav-link">Контакты</a></li>
+        <div class="container header-container">
+            <a href="" class="nav-logo"> 
+                <span class="web">
+                    Web
+                </span>
+                Studio 
+            </a>
+            <nav class="navigation">
+                <ul class="nav-item">
+                    <li class="nav-li"><a href="./index.html" class="nav-link">Студия</a></li>
+                    <li class="nav-li"><a href="./portfolio.html" class="nav-link current">Портфолио</a></li>
+                    <li class="nav-li"><a href="" class="nav-link">Контакты</a></li>
                 </ul>
             </nav>
-            <ul class="nav-item contacts">
-                <li>
+            <ul class="contacts">
+                <li class="contacts-li">
                     <a href="mailto:info@devstudio.com" class="header-contacts nav-link">
                         <img src="./img/vector(envelope).svg" alt="конверт">
                         info@devstudio.com
                     </a>
                 </li>
-                <li>
+                <li class="contacts-li">
                     <a href="tel:+380961111111" class="header-contacts nav-link">
                         <img src="./img/vector(phone).svg" alt="телефон">
                         +38 096 111 11 11
                     </a>
                 </li>
             </ul>
-        </div>    
+        </div>
     </header>
 
     <main class="main-container">
@@ -52,20 +52,20 @@
              <div class="container">
                 <h1 class="main-header">Поиск проектов</h1>
                     <ul class="project-nav">
-                        <li><button type="button" class="button-secondary">Все</button></li>
-                        <li><button type="button" class="button-secondary">Веб-сайты</button></li>
-                        <li><button type="button" class="button-secondary">Приложения</button></li>
-                        <li><button type="button" class="button-secondary">Дизайн</button></li>
-                        <li><button type="button" class="button-secondary">Маркетинг</button></li>
+                        <li class="item"><button type="button" class="button-secondary">Все</button></li>
+                        <li class="item"><button type="button" class="button-secondary">Веб-сайты</button></li>
+                        <li class="item"><button type="button" class="button-secondary">Приложения</button></li>
+                        <li class="item"><button type="button" class="button-secondary">Дизайн</button></li>
+                        <li class="item"><button type="button" class="button-secondary">Маркетинг</button></li>
                     </ul>
             
             <!-- project-list -->
-                <h2 class="project-list">Список проектов</h2>
-                <ul>
-                    <li>
+                <h2 class="project-header">Список проектов</h2>
+                <ul class="project-list">
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/technokryak.jpg" alt="Технокряк вэб-сайт">
-                            <p>
+                            <p class="tech-text">
                                 Технокряк это современная площадка распространения коронавируса. 
                                 Компании используют эту платформу для цифрового шпионажа и атак на 
                                 защищённые сервера конкурентов.
@@ -76,7 +76,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/posterbasket.jpg" alt="Постер с баскетболистами">
                             
@@ -90,7 +90,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/seafoodrest.jpg" alt="Ресторан морской еды">
                             
@@ -104,7 +104,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/primeproject.jpg" alt="Наушники">
                             
@@ -118,7 +118,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/projectboxes.jpg" alt="Коробки">
                             
@@ -132,7 +132,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/inspnoborders.jpg" alt="Монитор">
                             
@@ -146,7 +146,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/limitededition.jpg" alt="Журнал">
                             
@@ -161,7 +161,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/labproject.jpg" alt="Лейба">
                             
@@ -176,7 +176,7 @@
                             </p>
                         </a>
                     </li>
-                    <li>
+                    <li class="project-item">
                         <a href="#">
                             <img src="./img/portfolio/growingbuis.jpg" alt="Лейба">
                             
@@ -212,23 +212,24 @@
                 <a href="mailto:info@example.com" class="contacts-address">info@example.com</a><br>
                 <a href="tel:+380991111111" class="contacts-address">+38 099 111 11 11</a>
             </address>
-
-            <b class="appeal">присоединяйтесь</b>
-            
-            <ul class="social-links">
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на инстаграм">инстаграм</a>
-                </li>
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на твитер">твитер</a>
-                </li>
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на фейсбук">фейсбук</a>
-                </li>
-                <li>
-                    <a href="" class="footer-link" aria-label="ссылка на ЛинкдИн">ЛинкдИн</a>
-                </li>
-            </ul>
+            <div class="appeal-container">
+                <b class="appeal">присоединяйтесь</b>
+                
+                <ul class="social-links social-list">
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на инстаграм">Инс</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на твитер">Тви</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на фейсбук">ФБ</a>
+                    </li>
+                    <li>
+                        <a href="" class="footer-link" aria-label="ссылка на ЛинкдИн">Лнкд</a>
+                    </li>
+                </ul>
+            </div>
 
             <b class="appeal">Подпишитесь на рассылку</b>
 
@@ -236,8 +237,9 @@
                 Подписаться
             </a>
             
-            <p class="copyright">2020 | Developed by GoIT Students</p>
+            
         </div>
+        <p class="copyright">2020 | Developed by GoIT Students</p>
     </footer>
 </body>
 </html>
