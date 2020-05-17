@@ -23,6 +23,7 @@
 .advantages {
     background-color: var(--main-bg-decoration);
     letter-spacing: 0.03em;
+    padding-top: 94px;
 }
 
 .advantage-header{
@@ -31,16 +32,14 @@
 }
 
 .advantage-container{
-    padding-top: 94px;
     display: flex;
 }
 
-.item + .item{
-    margin-left: 30px;
+.item:not(:last-child){
+    margin-right: 30px;
 }
 
 .advantages-header{
-    margin-top: 30px;
     margin-bottom: 10px;
     font-size: 14px;
     line-height: 1.14;
@@ -71,6 +70,14 @@
 }
 
 .occupation-text{
+    text-align: center;
+    padding: 27px 87px;
+
+    background-color: rgba(47, 48, 58, 0.8);
+    border-radius: 0px 0px 4px 4px;
+}
+
+.occupation-link{
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -98,10 +105,16 @@
     background-color: var(--team-bg-decoration);
 }
 
+.team-list .item{
+    padding-bottom: 24px;
+}
 
+.team-list img{
+    display: block;
+    margin-bottom: 30px;
+}
 
 .team-name{
-    margin-top: 30px;
     margin-bottom: 10px;
 
     font-weight: 500;

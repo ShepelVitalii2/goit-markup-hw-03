@@ -1,3 +1,7 @@
+.section-container{
+    padding-top: 93px;
+}
+
 .main-container{
     background-color: var(--main-bg-decoration);
 }
@@ -13,12 +17,11 @@
     
     text-align: center;
 
-    padding-top: 93px;
-    padding-bottom: 50px;
+    margin-bottom: 50px;
 }
 
-.item + .item{
-    margin-left: 15px;
+.item:not(:last-child){
+    margin-right: 15px;
 }
 
 .project-list{
@@ -28,6 +31,11 @@
 
 .project-item{
     width: 380px;
+}
+
+.project-list img{
+    display: block;
+    margin-bottom: 20px;
 }
 
 .project-item:not(:nth-child(3n)){
@@ -49,7 +57,6 @@
 }
 
 .project-name{
-    margin-top: 20px;
     margin-bottom: 4px;
 
     font-weight: 700;
@@ -60,8 +67,6 @@
 }
 
 .project-descriptoin{
-    padding-bottom: 20px;
-
     font-size: 16px;
     line-height: 30px;
     letter-spacing: 0.03em;
