@@ -1,10 +1,12 @@
 .hero{
     background: var(--hero-bg-decoration);
     text-align: center;
+
+    padding: 200px 477px;
 }
 
 .hero-title{
-    margin-bottom: 56px;
+    margin-bottom: 46px;
 
     color:var(--title-text-decoration);
     font-weight: 900;
@@ -24,6 +26,8 @@
     background-color: var(--main-bg-decoration);
     letter-spacing: 0.03em;
     padding-top: 94px;
+    padding-bottom: 94px;
+    border-bottom: 1px solid #ECECEC;
 }
 
 .advantage-header{
@@ -35,7 +39,11 @@
     display: flex;
 }
 
-.item:not(:last-child){
+.advantage-container .item{
+    width: calc((100% - 90px) / 4);
+}
+
+.advantages .item:not(:last-child){
     margin-right: 30px;
 }
 
@@ -58,11 +66,13 @@
 
 .occupation{
     padding-top: 94px;
+    padding-bottom: 94px;
     background: var(--main-bg-decoration);
 }
 
-.occupation .container{
-    padding-bottom: 94px;
+.occupation-list .item:not(:last-child)  {
+    
+    margin-right: 30px;
 }
 
 .occupation .header{
@@ -71,7 +81,7 @@
 
 .occupation-text{
     text-align: center;
-    padding: 27px 87px;
+    padding: 27px 70px;
 
     background-color: rgba(47, 48, 58, 0.8);
     border-radius: 0px 0px 4px 4px;
@@ -105,17 +115,24 @@
     background-color: var(--team-bg-decoration);
 }
 
+
+
 .team-list .item{
     padding-bottom: 24px;
+
 }
 
-.team-list img{
-    display: block;
-    margin-bottom: 30px;
+.team-list .item{
+    width: calc((100%-90px) / 4);
+}
+
+.team-list .item:not(:last-child){
+    margin-right: 30px;
 }
 
 .team-name{
     margin-bottom: 10px;
+    margin-top: 30px;
 
     font-weight: 500;
     font-size: 16px;
@@ -140,12 +157,20 @@
 }
 
 .customers .header{
-    margin-bottom: 50px;
+    padding-bottom: 50px;
+    
     background: var(--main-bg-decoration);
 }
 
 .customers-list{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
 }
+
+.customers-list .item {
+    width: calc((100%-180px) / 6);
+}
+
+.customers-list .item:not(:last-child){
+    margin-right: 30px;
+}
+

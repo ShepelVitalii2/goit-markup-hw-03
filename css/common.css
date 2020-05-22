@@ -31,10 +31,11 @@ ul{
 
 li {
     list-style: none;
+    
 }
 
 body{
-    background-color: var(--main-bg-decoration);
+    background-color: var(--nav-bg-decoration);
     font-family: 'Roboto', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -43,6 +44,12 @@ body{
 h1,h2,h3,p{
     margin: 0px;
     padding: 0px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 /* Задаем стиль Вэб Студио */
@@ -143,7 +150,7 @@ h1,h2,h3,p{
 
 .footer{
     background-color: var(--footer-bg-decoration);
-    padding-top: 48px;
+    padding-top: 56px;
 }
 
 .footer .container{
@@ -183,14 +190,31 @@ h1,h2,h3,p{
 
 .social-list{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+}
+
+.social-list .social-pics{
+    width: calc(100%-120px) / 4;
+}
+
+.social-list .social-pics:not(:last-child){
+    margin-right: 40px;
 }
 
 .footer-link{
     color: var(--title-text-decoration);
 }
 
+.footer .container{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
 .copyright{
+    display: block;
+    padding-top: 18px;
+    padding-bottom: 21px;
+    
+
     color:var(--copyright-txt-color);
     font-size: 12px;
     line-height: 2;
@@ -288,7 +312,7 @@ h1,h2,h3,p{
 
 .container{
     outline: 2px solid tomato;
-    width: 1230px;
+    width: 1170px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
